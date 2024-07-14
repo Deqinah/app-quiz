@@ -10,19 +10,11 @@ function Start({ setUsername}) {
   return (
     
     <div className="start">
-      Gali magacaga:<input
+      <input
         className="startInput"
         placeholder="enter your name"
         ref={inputRef}
       />
-      <br/>
-      Qeybta Sualaha:
-      <select>
-      <option ></option>
-      <option>Cilmigadiniga</option>
-      <option>Cilmigamadiga</option>
-      </select>
-      <br/>
       <button className="startButton" onClick={handleClick}> Start </button>
     </div>
   );

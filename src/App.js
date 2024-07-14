@@ -13,88 +13,153 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Rolex is a company that specializes in what type of product?",
-      answers: [
-        {
-          text: "Phone",
-          correct: false,
-        },
-        {
-          text: "Watches",
-          correct: true,
-        },
-        {
-          text: "Food",
-          correct: false,
-        },
-        {
-          text: "Cosmetic",
-          correct: false,
-        },
-      ],
-    },
-    {
-      id: 2,
-      question: "When did the website `Facebook` launch?",
-      answers: [
-        {
-          text: "2004",
-          correct: true,
-        },
-        {
-          text: "2005",
-          correct: false,
-        },
-        {
-          text: "2006",
-          correct: false,
-        },
-        {
-          text: "2007",
-          correct: false,
-        },
-      ],
-    },
-    {
-      id: 3,
-      question: "Who played the character of harry potter in movie?",
-      answers: [
-        {
-          text: "Johnny Deep",
-          correct: false,
-        },
-        {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 4,
-      question: "React waxaa lagu isticmaalaha aladahaan soo socda?",
+      question: "An open-source JavaScript library, crafted with precision by Facebook, that aims to simplify the intricate process UI?",
       answers: [
         {
           text: "C#",
           correct: false,
         },
         {
-          text: "VISUAL STUDIO",
+          text: "React.js",
           correct: true,
         },
         {
-          text: "PHP",
+          text: "MIS",
           correct: false,
         },
         {
-          text: "ATOM",
+          text: "Multimedia",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 2,
+      question: "Which language is used in React?",
+      answers: [
+        {
+          text: "JavaScript",
+          correct: true,
+        },
+        {
+          text: "Management",
+          correct: false,
+        },
+        {
+          text: "Calculus",
+          correct: false,
+        },
+        {
+          text: "None",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 3,
+      question: "React provides of art functionality and is an excellent choice for developers looking for an easy to use and highly productive JavaScript framework ?",
+      answers: [
+          
+        {
+          text: "False",
+          correct: false,
+        },
+        {
+          text: "True",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 4,
+      question: "Additional Hooks use?",
+      answers: [
+        {
+          text: "array",
+          correct: false,
+        },
+        {
+          text: "hookstate",
+          correct: false,
+        },
+        {
+          text: "development",
+          correct: false,
+        },
+        {
+          text: "Custom,use-ref",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "Web development canbe classified two?",
+      answers: [
+        {
+          text: "Service,development",
+          correct: false,
+        },
+        {
+          text: "Frontend,backend",
+          correct: true,
+        },
+        {
+          text: "Website,Service",
+          correct: false,
+        },
+        {
+          text: "backend,Website",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 6,
+      question: "React Component is?",
+      answers: [
+        {
+          text: "rending react component use dom",
+          correct: false,
+        },
+        {
+          text: "extention language based",
+          correct: false,
+        },
+        {
+          text: "building block user interfarance",
+          correct: true,
+        },
+        {
+          text: "None",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 7,
+      question: "App component use allow jsx dynamically display content?",
+      answers: [
+        {
+          text: "true",
+          correct: true,
+        },
+        {
+          text: "false",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: "Props stand : Component?",
+      answers: [
+        {
+          text: "false",
+          correct: true,
+        },
+        {
+          text: "true",
           correct: false,
         },
       ],
@@ -104,17 +169,17 @@ function App() {
   const moneyPyramid = useMemo(
     () =>
       [
-        { id: 1, amount: "$ 15%" },
-        { id: 2, amount: "$ 30" },
-        { id: 3, amount: "$ 50" },
-        { id: 4, amount: "$ 100" },
-        { id: 5, amount: "$ 150" },
-        { id: 6, amount: "$ 200" },
-        { id: 7, amount: "$ 250" },
-        { id: 8, amount: "$ 300" },
-        { id: 9, amount: "$ 400" },
-        { id: 10, amount: "$ 600" },
-        { id: 11, amount: "$ 900" },
+        { id: 1, amount: "$ 100%" },
+        { id: 2, amount: "$ 200" },
+        { id: 3, amount: "$ 250" },
+        { id: 4, amount: "$ 300" },
+        { id: 5, amount: "$ 350" },
+        { id: 6, amount: "$ 400" },
+        { id: 7, amount: "$ 500" },
+        { id: 8, amount: "$ 600" },
+        { id: 9, amount: "$ 650" },
+        { id: 10, amount: "$ 700" },
+        { id: 11, amount: "$ 950" },
         { id: 12, amount: "$ 1.000" },
         { id: 13, amount: "$ 5.000" },
         { id: 14, amount: "$ 100.000" },
