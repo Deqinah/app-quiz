@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Deqinah/app-quiz.git/static/css/main.7aeb3a3d.css",
+    "main.js": "/Deqinah/app-quiz.git/static/js/main.90ba850d.js",
+    "static/js/885.18bdbd05.chunk.js": "/Deqinah/app-quiz.git/static/js/885.18bdbd05.chunk.js",
+    "static/media/bg1.jpeg": "/Deqinah/app-quiz.git/static/media/bg1.2745aa08209494f9129d.jpeg",
+    "static/media/play.mp3": "/Deqinah/app-quiz.git/static/media/play.8e5f6d1d81d4e1414b95.mp3",
+    "static/media/correct.mp3": "/Deqinah/app-quiz.git/static/media/correct.160572d72c858155072e.mp3",
+    "static/media/wrong.mp3": "/Deqinah/app-quiz.git/static/media/wrong.e946821894ae9b0a0d6f.mp3",
+    "index.html": "/Deqinah/app-quiz.git/index.html",
+    "main.7aeb3a3d.css.map": "/Deqinah/app-quiz.git/static/css/main.7aeb3a3d.css.map",
+    "main.90ba850d.js.map": "/Deqinah/app-quiz.git/static/js/main.90ba850d.js.map",
+    "885.18bdbd05.chunk.js.map": "/Deqinah/app-quiz.git/static/js/885.18bdbd05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aeb3a3d.css",
+    "static/js/main.90ba850d.js"
+  ]
+}
